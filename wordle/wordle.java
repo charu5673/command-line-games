@@ -16,7 +16,7 @@ public class wordle
 	}
     public static void setup() throws java.io.IOException,java.io.FileNotFoundException
     {
-        File file=new File("C:\\Users\\charu\\wordle5.txt");
+        File file=new File(""); //path to wordle5.txt
         FileInputStream fis=new FileInputStream(file);
         int i=0;
         int r=0;

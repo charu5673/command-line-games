@@ -7,7 +7,7 @@ public class bollywood
     static int c;
     public static void setup() throws java.io.FileNotFoundException
     {
-        Scanner sc=new Scanner(new File("C:\\Users\\charu\\bwDS.txt"));
+        Scanner sc=new Scanner(new File("")); //path to bwDS.txt
         for(int i=0;i<1284;i++)
         movies[i]=sc.nextLine();
     }
